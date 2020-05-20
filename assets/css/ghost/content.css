@@ -395,3 +395,35 @@
 .gh-content tbody tr:last-child {
     border-bottom: 1px solid rgba(0,0,0,.1);
 }
+
+.gh-content a:not([class]) {
+    text-decoration-skip-ink: auto;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    color: var(--color-base);
+    z-index: 1;
+    padding: 0 4px;
+    transition: color ease 0.3s;
+}
+
+.gh-content a:not([class])::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 10%;
+    left: 0;
+    bottom: 0;
+    background-color: var(--color-primary);
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+}
+
+.gh-content a:not([class]):hover {
+    color: var(--color-base);
+}
+
+.gh-content a:not([class]):hover::after {
+    height: 90%
+}

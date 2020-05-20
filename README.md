@@ -9,7 +9,7 @@ A minimal dark theme for Ghost platform.
 - [ ] make it minimal
 - [ ] add demo url to `package.json`
 - [ ] highlight code
-- [ ] custom link style
+- [x] custom link style
 
 # Development
 
