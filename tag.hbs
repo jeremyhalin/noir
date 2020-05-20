@@ -10,25 +10,25 @@
 
             <p>
                 {{#if description}}
-                    {{description}}
+                {{description}}
                 {{else}}
-                    A collection of {{plural ../pagination.total empty='posts' singular='% post' plural='% posts'}}
+                {{{t "A collection of {number}" number=(plural ../pagination.total empty=(t 'posts') singular=(t '% post') plural=(t '% posts')) }}}
                 {{/if}}
             </p>
 
             {{#if feature_image}}
-                <img class="gh-page-image" src="{{feature_image}}" alt="{{name}}" />
+            <img class="gh-page-image" src="{{feature_image}}" alt="{{name}}" />
             {{/if}}
 
         </header>
         {{/tag}}
 
         <div class="gh-postfeed">
-        {{#foreach posts}}
+            {{#foreach posts}}
 
             {{> "card"}} {{!-- partials/card.hbs --}}
 
-        {{/foreach}}
+            {{/foreach}}
         </div>
 
     </div>

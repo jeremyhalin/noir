@@ -1,4 +1,3 @@
-
 {{!< default}}
 
 <section class="gh-page gh-error">
@@ -8,7 +7,7 @@
 
             <h1 class="gh-error-code">{{statusCode}}</h1>
             <p class="gh-error-description">{{message}}</p>
-            <p class="gh-error-link"><a href="{{@site.url}}">Go to the front page →</a></p>
+            <p class="gh-error-link"><a href="{{@site.url}}">{{t "Go to the front page →" }}</a></p>
 
             {{#if errorDetails}}
             <section class="gh-error-stack">
