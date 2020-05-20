@@ -23,7 +23,7 @@ production stylesheet in assets/built/screen.css using: gulp dev
 @import "ghost/footer.css";
 @import "ghost/badge.css";
 
-
+@import "prism-vsc-dark-plus.css";
 
 /* Main - Your styles here! Edit below
 /* ---------------------------------------------------------- */
@@ -106,7 +106,7 @@ html,
     line-height: 1.2em;
     letter-spacing: 0.5px;
     text-transform: uppercase;
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .gh-card-content {
@@ -117,7 +117,7 @@ html,
 
 .gh-card-content p {
     margin: 1.2rem 0;
-    padding: 0 6vmin;
+    /* padding: 0 6vmin; */
 }
 
 .gh-card-content > strong {

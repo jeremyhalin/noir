@@ -8,7 +8,7 @@ A minimal dark theme for Ghost platform.
 - [x] set dark theme
 - [ ] make it minimal
 - [ ] add demo url to `package.json`
-- [ ] highlight code
+- [x] highlight code
 - [x] custom link style
 
 # Development
