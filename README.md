@@ -5,9 +5,11 @@ A minimal dark theme for Ghost platform.
 &nbsp;
 
 # TODO
-- [ ] set dark theme
+- [x] set dark theme
 - [ ] make it minimal
 - [ ] add demo url to `package.json`
+- [ ] highlight code
+- [ ] custom link style
 
 # Development
 
