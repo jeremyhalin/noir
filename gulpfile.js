@@ -7,6 +7,7 @@ var postcss = require('gulp-postcss');
 var zip = require('gulp-zip');
 var uglify = require('gulp-uglify');
 var beeper = require('beeper');
+var chmod = require('gulp-chmod');
 
 // postcss plugins
 var autoprefixer = require('autoprefixer');
@@ -73,6 +74,7 @@ function zipper(done) {
             '!node_modules', '!node_modules/**',
             '!dist', '!dist/**'
         ]),
+        chmod(0o755, 0o755),
         zip(filename),
         dest(targetDir)
     ], handleError(done));
