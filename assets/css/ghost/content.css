@@ -426,3 +426,9 @@
 .gh-content a:not([class]):hover::after {
     height: 100%;
 }
+
+.gh-footer {
+    text-align: center;
+    opacity: .38;
+    margin-top: 1.5em;
+}
