@@ -1,10 +1,23 @@
-# Noir Ghost Theme
+![Test](https://github.com/jeremyhalin/noir/workflows/Test/badge.svg)
 
-A minimal dark theme for Ghost platform.
+# Noir
 
-&nbsp;
+A minimal responsive dark theme for [Ghost](https://ghost.org/).
 
-# TODO
+## Screenshots
+
+![Screenshot of Noir theme](https://raw.githubusercontent.com/jeremyhalin/noir/master/assets/screenshot-desktop.jpg)
+
+## Features
+- dark theme (always enabled)
+- custom styles for tags : HTML, CSS, NodeJS, PHP, React...
+- code highlight
+
+## Localization
+- English
+- French
+
+## TODO
 - [x] set dark theme
 - [x] make it minimal
 - [ ] add demo url to `package.json`
@@ -13,8 +26,12 @@ A minimal dark theme for Ghost platform.
 - [ ] remove jQuery dependency
 - [x] display tags on post card
 - [ ] change mobile menu
+- [x] add license
+- [ ] add bages to README file
+- [x] add screenshots
+- [ ] try [publishing](https://ghost.org/marketplace/submit/) theme 
 
-# Development
+## Development
 
 Styles are compiled using Gulp/PostCSS to polyfill future CSS spec. You'll need [Node](https://nodejs.org/), [Yarn](https://yarnpkg.com/) and [Gulp](https://gulpjs.com) installed globally. After that, from the theme's root directory:
 
@@ -28,40 +45,18 @@ $ yarn dev
 
 Now you can edit `/assets/css/` files, which will be compiled to `/assets/built/` automatically.
 
-The `zip` Gulp task packages the theme files into `dist/<theme-name>.zip`, which you can then upload to your site.
+The `zip` Gulp task packages the theme files into `dist/noir.zip`, which you can then upload to your site.
 
 ```bash
 yarn zip
 ```
 
-# PostCSS Features Used
+## PostCSS Features Used
 
 - Autoprefixer - Don't worry about writing browser prefixes of any kind, it's all done automatically with support for the latest 2 major versions of every browser.
 - Variables - Simple pure CSS variables
 - [Color Function](https://github.com/postcss/postcss-color-function)
 
+## Copyright & License
 
-# First time using a Ghost theme?
-
-Ghost uses a simple templating language called [Handlebars](http://handlebarsjs.com/) for its themes.
-
-We've documented our default theme pretty heavily so that it should be fairly easy to work out what's going on just by reading the code and the comments. Once you feel comfortable with how everything works, we also have full [theme API documentation](https://themes.ghost.org) which explains every possible Handlebars helper and template.
-
-**The main files are:**
-
-- `default.hbs` - The main template file
-- `index.hbs` - Used for the home page
-- `post.hbs` - Used for individual posts
-- `page.hbs` - Used for individual pages
-- `tag.hbs` - Used for tag archives
-- `author.hbs` - Used for author archives
-
-One neat trick is that you can also create custom one-off templates just by adding the slug of a page to a template file. For example:
-
-- `page-about.hbs` - Custom template for the `/about/` page
-- `tag-news.hbs` - Custom template for `/tag/news/` archive
-- `author-ali.hbs` - Custom template for `/author/ali/` archive
-
-# Copyright & License
-
-Copyright (c) 2013-2020 Ghost Foundation - Released under the [MIT license](LICENSE).
+Copyright (c) 2020 Jérémy Halin - Released under the [MIT license](LICENSE).
