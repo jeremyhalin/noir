@@ -5,8 +5,15 @@
 <article class="gh-article {{post_class}}">
 
     <header class="gh-header gh-canvas">
-        <span class="gh-post-meta"><time datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time>
-            <span class="bull">&bull;</span> {{reading_time minute=(t "1 min read") minutes=(t "% min read")}}</span>
+        <span class="gh-post-meta">
+            {{#primary_tag}}
+            <a href="{{url}}" class="tag-badge-link">{{name}}</a>
+            {{/primary_tag}}
+            <span class="bull">&bull;</span>
+            <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time>
+            <span class="bull">&bull;</span>
+            {{reading_time minute=(t "1 min read") minutes=(t "% min read")}}
+        </span>
         <h1 class="gh-title">{{title}}</h1>
 
         {{#if custom_excerpt}}

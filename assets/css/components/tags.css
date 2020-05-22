@@ -1,0 +1,35 @@
+.tag-badge-link {
+    padding: 2px 4px;
+    font-size: smaller;
+    font-weight: var(--font-bold);
+}
+
+.tag-javascript  .tag-badge-link {
+    background: #F0DB4F;
+    color: #323330;
+}
+
+.tag-php  .tag-badge-link {
+    background: #787CB5;
+    color: #000000;
+}
+
+.tag-react  .tag-badge-link {
+    background: #20232a;
+    color: #61dafb;
+}
+
+.tag-html  .tag-badge-link {
+    background: #E44D26;
+    color: #FFFFFF;
+}
+
+.tag-css  .tag-badge-link {
+    background: #264de4;
+    color: #ffffff;
+}
+
+.tag-nodejs  .tag-badge-link {
+    background: #68A063;
+    color: #303030;
+}

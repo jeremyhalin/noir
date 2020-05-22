@@ -11,10 +11,8 @@ A minimal dark theme for Ghost platform.
 - [x] highlight code
 - [x] custom link style
 - [ ] remove jQuery dependency
-- [ ] display tags on post card
+- [x] display tags on post card
 - [ ] change mobile menu
-- [ ] improve "Written by" section
-- [ ] apply golden ratio
 
 # Development
 
