@@ -162,7 +162,7 @@
 .kg-card figcaption {
     padding: 1.5rem 1.5rem 0;
     text-align: center;
-    color: rgba(0,0,0,0.5);
+    color: var(--color-base);
     font-weight: 600;
     font-size: 1.3rem;
     line-height: 1.4em;
@@ -172,15 +172,15 @@
     color: rgba(0,0,0,0.8);
 }
 
-.gh-canvas :not(pre) code {
+.gh-canvas :not(pre):not(figure) code {
     vertical-align: middle;
     padding: 0.15em 0.4em 0.15em;
     border: #e1eaef 1px solid;
     font-weight: 400 !important;
     font-size: 0.9em;
     line-height: 1em;
-    color: #dc0050;
-    background: #f0f6f9;
+    color: var(--color-base);
+    /* background: #f0f6f9; */
     border-radius: 0.25em;
 }
 
