@@ -14,6 +14,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - footer with links to Ghost and Noir theme
 - code highlight with Prism
 - Prism dark theme
+- add default badge colors when a post's main tag is not in the list (JavaScript, PHP...)
+
+### Changed
+- fix main tag badge colors on posts when posts have multiple tags
 
 [Unreleased]: https://github.com/jeremyhalin/noir/compare/v1.0.0...HEAD
 [1.0.0]: https://github.com/jeremyhalin/noir/releases/tag/v1.0.0
