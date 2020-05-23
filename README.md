@@ -30,6 +30,7 @@ A minimal responsive dark theme for [Ghost](https://ghost.org/).
 - [ ] add bages to README file
 - [x] add screenshots
 - [ ] try [publishing](https://ghost.org/marketplace/submit/) theme 
+- [ ] show if a post is a feature post
 
 ## Development
 
