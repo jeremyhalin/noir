@@ -1,35 +1,37 @@
-.tag-badge-link {
+ .tag-badge-link {
     padding: 2px 4px;
     font-size: smaller;
     font-weight: var(--font-bold);
+    background: rgba(255, 255, 255, .05);
+    color: var(--color-base);
 }
 
-.tag-javascript  .tag-badge-link {
+.tag-badge-link.tag-badge-link--javascript {
     background: #F0DB4F;
     color: #323330;
 }
 
-.tag-php  .tag-badge-link {
+.tag-badge-link.tag-badge-link--php {
     background: #787CB5;
     color: #000000;
 }
 
-.tag-react  .tag-badge-link {
+.tag-badge-link.tag-badge-link--react {
     background: #20232a;
     color: #61dafb;
 }
 
-.tag-html  .tag-badge-link {
+.tag-badge-link.tag-badge-link--html {
     background: #E44D26;
     color: #FFFFFF;
 }
 
-.tag-css  .tag-badge-link {
+.tag-badge-link.tag-badge-link--css {
     background: #264de4;
     color: #ffffff;
 }
 
-.tag-nodejs  .tag-badge-link {
+.tag-badge-link.tag-badge-link--nodejs {
     background: #68A063;
     color: #303030;
 }

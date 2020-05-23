@@ -126,7 +126,7 @@ a:not([class]) {
 }
 
 a[class] {
-    color: inherit;
+    color: var(--color-base);
     text-decoration: none;
     transition: 0.4s ease;
 }
