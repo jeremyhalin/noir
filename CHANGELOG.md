@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2020-05-25
+### Added
+- responsive content
+- responsive font-size
+- golden ratio typography (spaces, font sizes)
+
 ## [1.0.0] - 2020-05-22
 ### Added
 - dark theme
@@ -19,5 +25,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - fix main tag badge colors on posts when posts have multiple tags
 
-[Unreleased]: https://github.com/jeremyhalin/noir/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/jeremyhalin/noir/compare/v1.1.0...HEAD
 [1.0.0]: https://github.com/jeremyhalin/noir/releases/tag/v1.0.0
+[1.1.0]: https://github.com/jeremyhalin/noir/releases/tag/v1.1.0
