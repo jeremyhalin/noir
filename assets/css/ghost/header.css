@@ -2,9 +2,9 @@
 /* ---------------------------------------------------------- */
 
 .gh-head {
-    padding: 3vw 4vw;
-    font-size: 1.6rem;
-    line-height: 1.3em;
+    /* padding: 3vw 4vw; */
+    /* font-size: 1.6rem; */
+    /* line-height: 1.3em; */
     background: inherit;
 }
 
@@ -52,6 +52,8 @@
 .gh-head-menu {
     display: flex;
     align-items: center;
+    font-size: var(--font-size-small);
+    line-height: var(--line-height-small);
 }
 
 .gh-head-menu .nav {

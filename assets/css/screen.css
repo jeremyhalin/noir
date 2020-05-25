@@ -44,11 +44,12 @@ html,
 }
 
 .gh-page {
-    padding: 0 4vw;
+    /* padding: 0 var(--padding); */
 }
 
 .gh-article {
-    padding: 8vmin 0;
+    /* padding: 0 var(--padding); */
+    margin-bottom: var(--spacing-4);
 }
 
 .gh-postfeed {
@@ -57,8 +58,9 @@ html,
 
 .gh-container {
     width: 100%;
-    max-width: 1200px;
+    max-width: var(--max-width);
     margin: 0 auto;
+    padding: var(--spacing-3);
 }
 
 .gh-head-actions a {
@@ -84,13 +86,17 @@ html,
 /* Index
 /* ---------------------------------------------------------- */
 
-.gh-card:not(:first-child) {
-    margin: 8vmin auto 0;
+.gh-card {
+    margin-bottom: var(--spacing-5);
 }
 
 .gh-card-link {
     display: flex;
     flex-direction: column;
+}
+
+.gh-card-title {
+    /* margin-bottom: var(--spacing-1); */
 }
 
 .gh-card-image {
@@ -102,22 +108,22 @@ html,
 
 .gh-card-meta {
     display: block;
-    margin: 0 0 1rem;
-    font-size: 1.4rem;
-    line-height: 1.2em;
+    /* margin-bottom: var(--spacing-1); */
+    font-size: var(--font-size-small);
+    line-height: var(--line-height-small);
     letter-spacing: 0.5px;
     text-transform: uppercase;
     color: #6c6c6c;
 }
 
 .gh-card-content {
-    max-width: 720px;
-    margin: 0 auto;
-    font-size: 1.6rem;
+    /* max-width: 720px; */
+    /* margin: 0 auto; */
+    /* font-size: 1.6rem; */
 }
 
 .gh-card-content p {
-    margin: 1.2rem 0;
+    /* margin: 1.2rem 0; */
     opacity: .87;
     /* padding: 0 6vmin; */
 }
@@ -148,14 +154,14 @@ html,
     max-width: 720px;
     margin: 0.3em auto 0;
     padding: 0 6vmin;
-    font-size: 1.3em;
+    /* font-size: 1.3em; */
     line-height: 1.4em;
     opacity: 0.5;
 }
 
 @media (max-width: 700px) {
     .gh-page-head > p {
-        font-size: 1.6rem;
+        /* font-size: 1.6rem; */
     }
 }
 
@@ -164,21 +170,22 @@ html,
 /* ---------------------------------------------------------- */
 
 .gh-header {
-    padding: 0 0 8vmin 0;
+    margin-bottom: var(--spacing-5);
     text-align: center;
 }
 
 .gh-post-meta {
     display: block;
-    margin: 0 0 1rem;
-    font-size: 1.4rem;
+    margin-bottom: var(--spacing-4);
     letter-spacing: 0.5px;
     text-transform: uppercase;
-    opacity: 0.8;
+    color: #6c6c6c;
+    font-size: var(--font-size-small);
+    line-height: var(--line-height-small);
 }
 
 .gh-excerpt {
-    margin: 1rem 0 0 0;
+    /* margin: 1rem 0 0 0; */
 }
 
 .gh-feature-image {
@@ -189,6 +196,12 @@ html,
 
 .gh-post-footer {
     margin: 2rem 0;
+}
+
+.gh-title {
+	font-size: var(--font-size-xxlarge);
+	line-height: var(--line-height-xxlarge);
+	margin-bottom: var(--spacing-4);
 }
 
 
@@ -206,7 +219,7 @@ html,
 
 .gh-author-meta {
     margin: 2vmin 0 0 0;
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
 }
 
 .gh-author-links {
@@ -232,8 +245,11 @@ html,
     transform: rotate(20deg);
 }
 
-@media (max-width: 700px) {
+@media (min-width: 746px) {
     .gh-author-meta {
-        font-size: 1.6rem;
+        /* font-size: 1.6rem; */
+    }
+    .gh-container {
+        padding: var(--spacing-4);
     }
 }

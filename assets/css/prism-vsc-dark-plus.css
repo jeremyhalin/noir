@@ -33,8 +33,7 @@ code[class*="language-"]::selection {
 }
 
 pre[class*="language-"] {
-	padding: 1em;
-	margin: .5em 0;
+	padding: var(--spacing-2);
 	overflow: auto;
 	background: #1e1e1e;
 }

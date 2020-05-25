@@ -5,7 +5,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 8vmin 4vw;
+    padding: 0 var(--spacing-4);
+    font-size: var(--font-size-small);
+    line-height: var(--line-height-small);
 }
 
 .gh-foot .gh-container {
@@ -20,6 +22,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: var(--spacing-4);
 }
 
 .gh-foot-menu .nav {
@@ -28,11 +31,11 @@
     align-items: center;
     justify-content: center;
     list-style: none;
-    font-size: 1.8rem;
+    /* font-size: 1.8rem; */
 }
 
 .gh-foot-menu .nav li {
-    margin: 0 1.5vmin;
+    margin: 0 var(--spacing-1);
     padding: 0;
 }
 
@@ -45,13 +48,14 @@
 
 .gh-foot-meta {
     margin: 2rem 0;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     text-align: center;
     opacity: 0.38;
+    margin-bottom: var(--spacing-4);
 }
 
 @media (max-width: 700px) {
     .gh-foot-menu .nav {
-        font-size: 1.6rem;
+        /* font-size: 1.6rem; */
     }
 }

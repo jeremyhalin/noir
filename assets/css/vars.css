@@ -17,17 +17,27 @@
     --font-normal: 400;
     --font-bold: 700;
     --font-heavy: 800;
+    --font-size-small: 1rem;
+    --font-size: 1.25rem;
+    --font-size-large: 1.56rem;
+    --font-size-xlarge: 2rem;
+    --font-size-xxlarge: 2.56rem;
+    --line-height-small: 1.75rem;
+    --line-height: 2.06rem;
+    --line-height-large: 2.50rem;
+    --line-height-xlarge: 3.13rem;
+    --line-height-xxlarge: 3.94rem;
 
-    /* Breakpoints */
-    --xlarge: 1680px;
-    --large: 1280px;
-    --medium: 980px;
-    --small: 740px;
-    --xsmall: 480px;
+    /* Spaces */
+    --spacing-1: .44rem;
+    --spacing-2: .75rem;
+    --spacing-3: 1.25rem;
+    --spacing-4: 2.06rem;
+    --spacing-5: 3.31rem;
 
     /* Sizes */
     --height: 4rem;
     --margin: 2rem;
     --radius: 0.5rem;
-
+    --max-width: calc(680px + var(--spacing-4) * 2);
 }
