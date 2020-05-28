@@ -43,17 +43,8 @@ html,
     flex-direction: column;
 }
 
-.gh-page {
-    /* padding: 0 var(--padding); */
-}
-
 .gh-article {
-    /* padding: 0 var(--padding); */
     margin-bottom: var(--spacing-4);
-}
-
-.gh-postfeed {
-    padding: 8vmin 0;
 }
 
 .gh-container {
@@ -75,9 +66,9 @@ html,
     fill: currentcolor;
 }
 
-.gh-head-actions a:first-child svg {
+/* .gh-head-actions a:first-child svg {
     margin-left: 20px;
-}
+} */
 
 .gh-head-actions a:last-child svg {
     height: 2rem;
@@ -233,6 +224,7 @@ html,
     display: inline-flex;
     align-items: center;
     margin: 0 0.75vmin;
+    color: white;
 }
 
 .gh-author-links a + a:before {
