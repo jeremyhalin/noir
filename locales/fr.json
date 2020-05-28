@@ -9,5 +9,8 @@
     "% posts": "% articles",
     "% post": "% article",
     "1 min read": "1 min de lecture",
-    "% min read": "% min de lecture"
+    "% min read": "% min de lecture",
+    "Newer posts": "Articles plus récents",
+    "Older posts": "Articles plus anciens",
+    "Page {page} of {pages}": "Page {page} sur {pages}"
 }

@@ -14,6 +14,7 @@ production stylesheet in assets/built/screen.css using: gulp dev
 @import "components/forms.css";
 @import "components/buttons.css";
 @import "components/tags.css";
+@import "components/pagination.css";
 
 /* Ghost components */
 @import "ghost/header.css";
@@ -148,6 +149,10 @@ html,
     /* font-size: 1.3em; */
     line-height: 1.4em;
     opacity: 0.5;
+}
+
+.gh-postfeed {
+    margin-bottom: var(--spacing-5);
 }
 
 @media (max-width: 700px) {

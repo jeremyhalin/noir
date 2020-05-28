@@ -1,0 +1,24 @@
+nav.pagination {
+    display: flex;
+    color: #6c6c6c;
+}
+
+div.pagination__previous, div.pagination__next, div.pagination__number {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+div.pagination__previous a {
+    margin-right: auto;
+    color: #6c6c6c;
+}
+
+div.pagination__next a {
+    margin-left: auto;
+    color: #6c6c6c;
+}
+
+div.pagination__number {
+    opacity: .87;
+}
