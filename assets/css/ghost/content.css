@@ -77,7 +77,7 @@
 /* Content & Typography
 /* ---------------------------------------------------------- */
 
-.gh-content > * + * {
+.gh-content > * {
     margin-bottom: var(--spacing-4);
 }
 
