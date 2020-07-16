@@ -1,7 +1,8 @@
 {
     "name": "noir",
     "description": "A minimal dark theme for ghost",
-    "version": "1.2.0",
+    "version": "1.3.0",
+    "demo": "https://jeremyhalin.fr",
     "engines": {
         "ghost": ">=3.0.0",
         "ghost-api": "v3"
@@ -22,7 +23,7 @@
     "author": {
         "name": "Jérémy Halin",
         "email": "hello@jeremyhalin.fr",
-        "url": "https:/jeremyhalin.fr"
+        "url": "https://jeremyhalin.fr"
     },
     "gpm": {
         "type": "theme",
@@ -36,7 +37,8 @@
         "theme",
         "ghost-theme",
         "dark",
-        "minimal"
+        "minimal",
+        "developer"
     ],
     "repository": {
         "type": "git",

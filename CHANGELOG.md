@@ -7,6 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.0] - 2020-07-16
+
+### Added
+
+-   demo URL to package.json
+-   developer keyword to package.json
+
+### Changed
+
+-   rewrite in vanilla JS what FitVids did (adding a responsive container to embeds)
+
+### Removed
+
+-   jQuery dependency
+-   FitVids dependency
+
+### Fixed
+
+-   author's URL in package.json
+
 ## [1.2.0] - 2020-05-28
 
 ### Changed
@@ -48,3 +68,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [1.0.0]: https://github.com/jeremyhalin/noir/releases/tag/v1.0.0
 [1.1.0]: https://github.com/jeremyhalin/noir/releases/tag/v1.1.0
 [1.2.0]: https://github.com/jeremyhalin/noir/releases/tag/v1.2.0
+[1.3.0]: https://github.com/jeremyhalin/noir/releases/tag/v1.3.0

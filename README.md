@@ -23,19 +23,21 @@ A minimal responsive dark theme for [Ghost](https://ghost.org/).
 
 -   [x] set dark theme
 -   [x] make it minimal
--   [ ] add demo url to `package.json`
+-   [x] add demo url to `package.json`
 -   [x] highlight code
 -   [x] custom link style
--   [ ] remove jQuery dependency
+-   [x] remove jQuery dependency
 -   [x] display tags on post card
--   [ ] change mobile menu
+-   [x] change mobile menu
 -   [x] add license
 -   [ ] add bages to README file
 -   [x] add screenshots
 -   [ ] try [publishing](https://ghost.org/marketplace/submit/) theme
--   [ ] show if a post is a feature post
+-   [ ] create custom styling and layouts for posts which are marked as "featured"
 -   [ ] improve accessibility (aria labels, roles...)
 -   [ ] support "Subscribe" Ghost's feature
+-   [ ] add mobile screenshot
+-   [ ] [validate](https://validator.w3.org) HTML on all pages
 
 ## Development
 
