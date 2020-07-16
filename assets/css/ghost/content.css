@@ -1,5 +1,3 @@
-
-
 /* Content grid
 /* ---------------------------------------------------------- */
 
@@ -26,16 +24,15 @@
         grid-template-columns:
             [full-start]
             4vw
-                [wide-start]
-                    auto
-                        [main-start]
-                            720px
-                        [main-end]
-                    auto
-                [wide-end]
+            [wide-start]
+            auto
+            [main-start]
+            720px
+            [main-end]
+            auto
+            [wide-end]
             4vw
-            [full-end]
-        ;
+            [full-end];
     }
 }
 
@@ -44,16 +41,15 @@
         grid-template-columns:
             [full-start]
             4vw
-                [wide-start]
-                    0
-                        [main-start]
-                            auto
-                        [main-end]
-                    0
-                [wide-end]
+            [wide-start]
+            0
+            [main-start]
+            auto
+            [main-end]
+            0
+            [wide-end]
             4vw
-            [full-end]
-        ;
+            [full-end];
     }
 }
 
@@ -72,7 +68,6 @@
 .kg-width-full img {
     width: 100%;
 }
-
 
 /* Content & Typography
 /* ---------------------------------------------------------- */
@@ -135,30 +130,30 @@
 }
 
 .gh-content h1 {
-	font-size: 41px;
-	line-height: 63px;
-	margin-bottom: var(--spacing-4);
+    font-size: 41px;
+    line-height: 63px;
+    margin-bottom: var(--spacing-4);
 }
 
 .gh-content h2 {
-	font-size: 32px;
-	line-height: 50px;
-	margin-top: var(--spacing-5);
-	margin-bottom: var(--spacing-3);
+    font-size: 32px;
+    line-height: 50px;
+    margin-top: var(--spacing-5);
+    margin-bottom: var(--spacing-3);
 }
 
 .gh-content h3 {
-	font-size: 25px;
-	line-height: 40px;
-	margin-top: var(--spacing-4);
-	margin-bottom: var(--spacing-2);
+    font-size: 25px;
+    line-height: 40px;
+    margin-top: var(--spacing-4);
+    margin-bottom: var(--spacing-2);
 }
 
 .gh-content h4 {
-	font-size: 20px;
-	line-height: var(--spacing-4);
-	font-weight: bold;
-	margin-bottom: var(--spacing-1);
+    font-size: 20px;
+    line-height: var(--spacing-4);
+    font-weight: bold;
+    margin-bottom: var(--spacing-1);
 }
 
 @media (max-width: 650px) {
@@ -174,7 +169,6 @@
         left: -4vw;
     }
 }
-
 
 /* Cards
 /* ---------------------------------------------------------- */
@@ -197,7 +191,7 @@
 }
 
 .kg-card figcaption strong {
-    color: rgba(0,0,0,0.8);
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .gh-canvas :not(pre):not(figure) code {
@@ -213,7 +207,7 @@
 .gh-canvas > pre {
     overflow-x: auto;
     padding: var(--spacing-2);
-    background: rgba(255, 255, 255, .05);
+    background: rgba(255, 255, 255, 0.05);
     border-radius: 4px;
 }
 
@@ -227,7 +221,6 @@
 .kg-image-card img {
     margin: auto;
 }
-
 
 /* Galleries
 /* ---------------------------------------------------------- */
@@ -261,7 +254,6 @@
     margin: 0 0 0 0.75em;
 }
 
-
 /* Bookmark Cards
 /* ---------------------------------------------------------- */
 
@@ -278,7 +270,7 @@
     flex-wrap: wrap;
     flex-direction: row-reverse;
     color: currentColor;
-    background: rgba(255, 255, 255, .05);
+    background: rgba(255, 255, 255, 0.05);
     font-family: var(--font-sans-serif);
     text-decoration: none;
     border-radius: 5px;
@@ -361,9 +353,8 @@
 
 .kg-bookmark-publisher::before {
     content: "•";
-    margin: 0 .5em;
+    margin: 0 0.5em;
 }
-
 
 /* Card captions
 /* ---------------------------------------------------------- */
@@ -383,7 +374,6 @@
 .kg-width-full.kg-card-hascaption figcaption {
     grid-column: main-start / main-end;
 }
-
 
 /* Tables
 /* ---------------------------------------------------------- */
@@ -405,22 +395,20 @@
 }
 
 .gh-content tbody tr:nth-child(2n + 1) {
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     padding: 1px;
 }
 
 .gh-content tbody tr:nth-child(2n + 2) td:last-child {
-    box-shadow:
-        inset 1px 0 rgba(0,0,0,0.1),
-        inset -1px 0 rgba(0,0,0,0.1);
+    box-shadow: inset 1px 0 rgba(0, 0, 0, 0.1), inset -1px 0 rgba(0, 0, 0, 0.1);
 }
 
 .gh-content tbody tr:nth-child(2n + 2) td {
-    box-shadow: inset 1px 0 rgba(0,0,0,0.1);
+    box-shadow: inset 1px 0 rgba(0, 0, 0, 0.1);
 }
 
 .gh-content tbody tr:last-child {
-    border-bottom: 1px solid rgba(0,0,0,.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .gh-content a:not([class]) {
@@ -435,7 +423,7 @@
 }
 
 .gh-content a:not([class])::after {
-    content: '';
+    content: "";
     position: absolute;
     z-index: -1;
     width: 100%;
@@ -457,6 +445,6 @@
 
 .gh-footer {
     text-align: center;
-    opacity: .38;
+    opacity: 0.38;
     margin-bottom: var(--spacing-4);
 }

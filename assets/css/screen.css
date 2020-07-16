@@ -116,7 +116,7 @@ html,
 
 .gh-card-content p {
     /* margin: 1.2rem 0; */
-    opacity: .87;
+    opacity: 0.87;
     /* padding: 0 6vmin; */
 }
 
@@ -127,7 +127,6 @@ html,
     box-shadow: 0 -1px 0 0 inset currentColor;
     opacity: 0.5;
 }
-
 
 /* Page
 /* ---------------------------------------------------------- */
@@ -160,7 +159,6 @@ html,
         /* font-size: 1.6rem; */
     }
 }
-
 
 /* Post
 /* ---------------------------------------------------------- */
@@ -195,11 +193,10 @@ html,
 }
 
 .gh-title {
-	font-size: var(--font-size-xxlarge);
-	line-height: var(--line-height-xxlarge);
-	margin-bottom: var(--spacing-4);
+    font-size: var(--font-size-xxlarge);
+    line-height: var(--line-height-xxlarge);
+    margin-bottom: var(--spacing-4);
 }
-
 
 /* Author Archive
 /* ---------------------------------------------------------- */
@@ -215,7 +212,6 @@ html,
 
 .gh-author-meta {
     margin: 2vmin 0 0 0;
-    /* font-size: 1.2em; */
 }
 
 .gh-author-links {
@@ -238,14 +234,11 @@ html,
     margin: 0 1.25vmin 0 0;
     height: 1em;
     width: 1px;
-    background: rgba(0,0,0,0.3);
+    background: rgba(0, 0, 0, 0.3);
     transform: rotate(20deg);
 }
 
 @media (min-width: 746px) {
-    .gh-author-meta {
-        /* font-size: 1.6rem; */
-    }
     .gh-container {
         padding: var(--spacing-4);
     }
