@@ -69,13 +69,8 @@
 
     </div>
 
-    {{!-- <foot> --}}
-
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-
     {{#is "post, page"}}
-    <script src="{{asset "built/jquery.fitvids.js"}}"></script>
+    <script src="{{asset "built/responsive-embed.js"}}"></script>
     <script>
         var images = document.querySelectorAll('.kg-gallery-image img');
         images.forEach(function (image) {
@@ -84,10 +79,6 @@
             var height = image.attributes.height.value;
             var ratio = width / height;
             container.style.flex = ratio + ' 1 0%';
-        });
-        $(document).ready(function () {
-            var $postContent = $(".gh-content");
-            $postContent.fitVids();
         });
     </script>
 
