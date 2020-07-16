@@ -9,30 +9,33 @@ A minimal responsive dark theme for [Ghost](https://ghost.org/).
 ![Screenshot of Noir theme](https://raw.githubusercontent.com/jeremyhalin/noir/master/assets/screenshot-desktop.jpg)
 
 ## Features
-- dark theme (always enabled)
-- custom styles for tags : HTML, CSS, NodeJS, PHP, React...
-- code highlight
+
+-   dark theme (always enabled)
+-   custom styles for tags : HTML, CSS, NodeJS, PHP, React...
+-   code highlight
 
 ## Localization
-- English
-- French
+
+-   English
+-   French
 
 ## TODO
-- [x] set dark theme
-- [x] make it minimal
-- [ ] add demo url to `package.json`
-- [x] highlight code
-- [x] custom link style
-- [ ] remove jQuery dependency
-- [x] display tags on post card
-- [ ] change mobile menu
-- [x] add license
-- [ ] add bages to README file
-- [x] add screenshots
-- [ ] try [publishing](https://ghost.org/marketplace/submit/) theme 
-- [ ] show if a post is a feature post
-- [ ] improve accessibility (aria labels, roles...)
-- [ ] support "Subscribe" Ghost's feature
+
+-   [x] set dark theme
+-   [x] make it minimal
+-   [ ] add demo url to `package.json`
+-   [x] highlight code
+-   [x] custom link style
+-   [ ] remove jQuery dependency
+-   [x] display tags on post card
+-   [ ] change mobile menu
+-   [x] add license
+-   [ ] add bages to README file
+-   [x] add screenshots
+-   [ ] try [publishing](https://ghost.org/marketplace/submit/) theme
+-   [ ] show if a post is a feature post
+-   [ ] improve accessibility (aria labels, roles...)
+-   [ ] support "Subscribe" Ghost's feature
 
 ## Development
 
@@ -56,9 +59,9 @@ yarn zip
 
 ## PostCSS Features Used
 
-- Autoprefixer - Don't worry about writing browser prefixes of any kind, it's all done automatically with support for the latest 2 major versions of every browser.
-- Variables - Simple pure CSS variables
-- [Color Function](https://github.com/postcss/postcss-color-function)
+-   Autoprefixer - Don't worry about writing browser prefixes of any kind, it's all done automatically with support for the latest 2 major versions of every browser.
+-   Variables - Simple pure CSS variables
+-   [Color Function](https://github.com/postcss/postcss-color-function)
 
 ## Copyright & License
 
