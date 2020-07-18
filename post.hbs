@@ -14,6 +14,10 @@
             <span class="bull">&bull;</span>
             {{reading_time minute=(t "1 min read") minutes=(t "% min read")}}
         </span>
+        
+        {{#if featured}}
+            <span class="gh-featured">&#9733; {{{t "Featured" }}}</span>
+        {{/if}} 
         <h1 class="gh-title">{{title}}</h1>
 
         {{#if custom_excerpt}}

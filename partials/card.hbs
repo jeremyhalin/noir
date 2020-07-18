@@ -13,15 +13,22 @@ Re-usable card for linking to posts
         {{/if}}
     --}}
     <div class="gh-card-content">
-        <span class="gh-card-meta">
-            {{#primary_tag}}
-            <a href="{{url}}" class="tag-badge-link tag-badge-link--{{slug}}">{{name}}</a>
-            {{/primary_tag}}
-            <span class="bull">&bull;</span>
-            <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time>
-            <span class="bull">&bull;</span>
-            {{reading_time minute=(t "1 min read") minutes=(t "% min read")}}
-        </span>
+        <div class="gh-card-meta">
+            <div class="gh-card-meta__left">
+                {{#primary_tag}}
+                <a href="{{url}}" class="tag-badge-link tag-badge-link--{{slug}}">{{name}}</a>
+                {{/primary_tag}}
+                <span class="bull">&bull;</span>
+                <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time>
+                <span class="bull">&bull;</span>
+                {{reading_time minute=(t "1 min read") minutes=(t "% min read")}}
+            </div>
+            {{#if featured}}
+                <div class="gh-card-meta__right">
+                    &#9733; {{{t "Featured" }}}
+                </div>
+            {{/if}} 
+        </div>
         <a class="gh-card-link" href="{{url}}">
             <h2 class="gh-card-title">{{title}}</h2>
             <p>{{excerpt}}</p>

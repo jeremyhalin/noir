@@ -30,10 +30,10 @@ A minimal responsive dark theme for [Ghost](https://ghost.org/).
 -   [x] display tags on post card
 -   [x] change mobile menu
 -   [x] add license
--   [ ] add bages to README file
+-   [ ] add badges to README file
 -   [x] add screenshots
 -   [ ] try [publishing](https://ghost.org/marketplace/submit/) theme
--   [ ] create custom styling and layouts for posts which are marked as "featured"
+-   [x] create custom styling and layouts for posts which are marked as "featured"
 -   [ ] improve accessibility (aria labels, roles...)
 -   [ ] support "Subscribe" Ghost's feature
 -   [ ] add mobile screenshot
