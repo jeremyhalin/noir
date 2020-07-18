@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.4.0] - 2020-07-18
+
+### Added
+
+-   custom style for featured posts
+
 ## [1.3.0] - 2020-07-16
 
 ### Added
@@ -69,3 +75,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [1.1.0]: https://github.com/jeremyhalin/noir/releases/tag/v1.1.0
 [1.2.0]: https://github.com/jeremyhalin/noir/releases/tag/v1.2.0
 [1.3.0]: https://github.com/jeremyhalin/noir/releases/tag/v1.3.0
+[1.4.0]: https://github.com/jeremyhalin/noir/releases/tag/v1.4.0
