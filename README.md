@@ -11,7 +11,7 @@ A minimal responsive dark theme for [Ghost](https://ghost.org/).
 ## Features
 
 -   dark theme (always enabled)
--   custom styles for tags : HTML, CSS, NodeJS, PHP, React...
+-   custom styles for tags (JavaScript, PHP, React, HTML, CSS and NodeJS currently supported)
 -   code highlight
 
 ## Localization
