@@ -1,4 +1,5 @@
-![Test](https://github.com/jeremyhalin/noir/workflows/Test/badge.svg)
+![tests](https://github.com/jeremyhalin/noir/workflows/tests/badge.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/jeremyhalin/noir)
 
 # Noir
 
