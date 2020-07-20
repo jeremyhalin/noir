@@ -16,7 +16,6 @@
     flex-direction: column;
 }
 
-
 /* Brand
 /* ---------------------------------------------------------- */
 
@@ -38,7 +37,6 @@
     max-height: 40px;
 }
 
-
 /* Primary Navigation
 /* ---------------------------------------------------------- */
 
@@ -58,7 +56,7 @@
 }
 
 .gh-head-menu .nav li {
-    margin: 0 1.5vw 0 0;
+    margin: 0 1.5vw 0 1.5vw;
     padding: 0;
 }
 
@@ -70,7 +68,6 @@
 .gh-head-menu .nav-current a {
     box-shadow: 0 -1px 0 0 currentcolor inset;
 }
-
 
 /* Secondary Navigation
 /* ---------------------------------------------------------- */
@@ -94,7 +91,7 @@
     display: inline-block;
     margin: 0 var(--spacing-2);
     padding: var(--spacing-1);
-    opacity: .38;
+    opacity: 0.38;
 }
 
 .gh-head-actions-list a:not([class]):hover {
@@ -113,7 +110,7 @@
     grid-template-columns: auto max-content max-content;
 }
 .gh-head-brandnav .gh-head-brand {
-     grid-column-start: 1;
+    grid-column-start: 1;
 }
 .gh-head-brandnav .gh-head-menu {
     margin-left: 40px;
@@ -129,12 +126,12 @@
     grid-gap: 2vmin;
 }
 .gh-head-stacked .gh-head-brand {
-     grid-column-start: 1;
-     width: 100%;
-     max-width: none;
-     display: flex;
-     justify-content: center;
-     text-align: center;
+    grid-column-start: 1;
+    width: 100%;
+    max-width: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 .gh-head-stacked .gh-head-menu,
 .gh-head-stacked .gh-head-actions,
