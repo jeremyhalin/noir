@@ -38,7 +38,7 @@ A minimal responsive dark theme for [Ghost](https://ghost.org/).
 -   [ ] improve accessibility (aria labels, roles...)
 -   [ ] support "Subscribe" Ghost's feature
 -   [ ] add mobile screenshot
--   [ ] [validate](https://validator.w3.org) HTML on all pages
+-   [x] [validate](https://validator.w3.org) HTML on all pages
 
 ## Development
 
