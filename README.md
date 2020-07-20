@@ -35,10 +35,10 @@ A minimal responsive dark theme for [Ghost](https://ghost.org/).
 -   [x] add screenshots
 -   [ ] try [publishing](https://ghost.org/marketplace/submit/) theme
 -   [x] create custom styling and layouts for posts which are marked as "featured"
--   [ ] improve accessibility (aria labels, roles...)
 -   [ ] support "Subscribe" Ghost's feature
 -   [ ] add mobile screenshot
 -   [x] [validate](https://validator.w3.org) HTML on all pages
+-   [ ] support post image
 
 ## Development
 
