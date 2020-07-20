@@ -70,7 +70,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 -   fix main tag badge colors on posts when posts have multiple tags
 
-[unreleased]: https://github.com/jeremyhalin/noir/compare/v1.2.0...HEAD
+[unreleased]: https://github.com/jeremyhalin/noir/compare/v1.4.0...HEAD
 [1.0.0]: https://github.com/jeremyhalin/noir/releases/tag/v1.0.0
 [1.1.0]: https://github.com/jeremyhalin/noir/releases/tag/v1.1.0
 [1.2.0]: https://github.com/jeremyhalin/noir/releases/tag/v1.2.0
