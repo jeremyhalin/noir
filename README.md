@@ -43,6 +43,15 @@ A minimal responsive dark theme for [Ghost](https://ghost.org/).
 -   [ ] add Newsletter signup
 -   [ ] custom home page
 
+## Tags colors suggestions
+
+-   javascript: #f0db4f
+-   php: #787cb5
+-   react: #20232a
+-   html: #e44d26
+-   css: #264de4
+-   nodejs: #68a063
+
 ## Development
 
 Styles are compiled using Gulp/PostCSS to polyfill future CSS spec. You'll need [Node](https://nodejs.org/), [Yarn](https://yarnpkg.com/) and [Gulp](https://gulpjs.com) installed globally. After that, from the theme's root directory:

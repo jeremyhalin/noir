@@ -27,6 +27,11 @@ production stylesheet in assets/built/screen.css using: gulp dev
 
 @import "prism-vsc-dark-plus.css";
 
+/* Tailwind - add this part */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 /* Main - Your styles here! Edit below
 /* ---------------------------------------------------------- */
 
