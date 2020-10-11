@@ -39,6 +39,9 @@ A minimal responsive dark theme for [Ghost](https://ghost.org/).
 -   [ ] add mobile screenshot
 -   [x] [validate](https://validator.w3.org) HTML on all pages
 -   [ ] support post image
+-   [ ] support tag's color
+-   [ ] add Newsletter signup
+-   [ ] custom home page
 
 ## Development
 
