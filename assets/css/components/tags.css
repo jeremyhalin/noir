@@ -1,18 +1,22 @@
- .tag-badge-link {
+.tag-badge-link {
     padding: 2px 4px;
     font-size: smaller;
     font-weight: var(--font-bold);
-    background: rgba(255, 255, 255, .05);
+    background: rgba(255, 255, 255, 0.05);
     color: var(--color-base);
 }
 
-.tag-badge-link.tag-badge-link--javascript {
-    background: #F0DB4F;
+.tag-badge-link span {
+    mix-blend-mode: screen;
+}
+
+/* .tag-badge-link.tag-badge-link--javascript {
+    background: #f0db4f;
     color: #323330;
 }
 
 .tag-badge-link.tag-badge-link--php {
-    background: #787CB5;
+    background: #787cb5;
     color: #000000;
 }
 
@@ -22,8 +26,8 @@
 }
 
 .tag-badge-link.tag-badge-link--html {
-    background: #E44D26;
-    color: #FFFFFF;
+    background: #e44d26;
+    color: #ffffff;
 }
 
 .tag-badge-link.tag-badge-link--css {
@@ -32,6 +36,6 @@
 }
 
 .tag-badge-link.tag-badge-link--nodejs {
-    background: #68A063;
+    background: #68a063;
     color: #303030;
-}
+} */

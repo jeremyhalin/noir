@@ -3,20 +3,18 @@ Re-usable card for linking to posts
 --}}
 
 <article class="gh-card {{post_class}} {{#if feature_image}}with-image{{else}}no-image{{/if}}">
-    {{!--
-        {{#if feature_image}}
-        <img class="gh-card-image" srcset="{{img_url feature_image size="s"}} 300w,
-                        {{img_url feature_image size="m"}} 600w,
-                        {{img_url feature_image size="l"}} 1000w,
-                        {{img_url feature_image size="xl"}} 2000w" sizes="(max-width: 1000px) 400px, 700px"
-            src="{{img_url feature_image size="m"}}" alt="{{title}}" />
-        {{/if}}
-    --}}
+    {{#if feature_image}}
+    <img class="gh-card-image" srcset="{{img_url feature_image size="s"}} 300w,
+                    {{img_url feature_image size="m"}} 600w,
+                    {{img_url feature_image size="l"}} 1000w,
+                    {{img_url feature_image size="xl"}} 2000w" sizes="(max-width: 1000px) 400px, 700px"
+        src="{{img_url feature_image size="m"}}" alt="{{title}}" />
+    {{/if}}
     <div class="gh-card-content">
         <div class="gh-card-meta">
             <div class="gh-card-meta__left">
                 {{#primary_tag}}
-                <a href="{{url}}" class="tag-badge-link tag-badge-link--{{slug}}">{{name}}</a>
+                <a href="{{url}}" class="tag-badge-link tag-badge-link--{{slug}}" style="background-color: {{accent_color}};"><span>{{name}}</span></a>
                 {{/primary_tag}}
                 <span class="bull">&bull;</span>
                 <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time>
@@ -27,7 +25,7 @@ Re-usable card for linking to posts
                 <div class="gh-card-meta__right">
                     &#9733; {{{t "Featured" }}}
                 </div>
-            {{/if}} 
+            {{/if}}
         </div>
         <a class="gh-card-link" href="{{url}}">
             <h2 class="gh-card-title">{{title}}</h2>
