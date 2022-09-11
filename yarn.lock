@@ -108,6 +108,11 @@
     "@sentry/types" "5.15.5"
     tslib "^1.9.3"
 
+"@tailwindcss/typography@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@tailwindcss/typography/-/typography-0.2.0.tgz#b597c83502e3c3c6641a8aaabda223cd494ab349"
+  integrity sha512-aPgMH+CjQiScLZculoDNOQUrrK2ktkbl3D6uCLYp1jgYRlNDrMONu9nMu8LfwAeetYNpVNeIGx7WzHSu0kvECg==
+
 "@tryghost/pretty-cli@1.2.5":
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/@tryghost/pretty-cli/-/pretty-cli-1.2.5.tgz#889e355f81e9d4fb7f85004708fa5878a4663a2c"

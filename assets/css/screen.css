@@ -36,7 +36,7 @@ production stylesheet in assets/built/screen.css using: gulp dev
 /* ---------------------------------------------------------- */
 
 html,
-.gh-viewport {
+body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;

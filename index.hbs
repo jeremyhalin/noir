@@ -1,12 +1,14 @@
 {{!< default}}
 
-<div class="gh-page">
-    <div class="gh-postfeed">
-        {{#foreach posts}}
+<div class="flex flex-row flex-wrap">
+    {{#foreach posts}}
 
-        {{> "card"}} {{!-- partials/card.hbs --}}
+    {{#if @first}}
+        {{> "post-card-full-width"}} {{!-- partials/card.hbs --}}
+    {{/if}}
+    {{> "post-card"}} {{!-- partials/card.hbs --}}
 
-        {{/foreach}}
-    </div>
-    {{pagination}}
+    {{/foreach}}
 </div>
+<button class="gh-button">test</button>
+{{pagination}}
